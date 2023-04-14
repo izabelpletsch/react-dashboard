@@ -1,0 +1,14 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import './index.css';
+import App from './App'
+import { ContextProvider } from './contexts/ContextProvider';
+import { registerLicense } from '@syncfusion/ej2-base';
+
+registerLicense('Mgo+DSMBaFt+QHFqVkNrXVNbdV5dVGpAd0N3RGlcdlR1fUUmHVdTRHRcQlliSn9Rck1hWndXdHc=;Mgo+DSMBPh8sVXJ1S0d+X1RPd11dXmJWd1p/THNYflR1fV9DaUwxOX1dQl9gSXpSdURhXXdcc31VQWM=;ORg4AjUWIQA/Gnt2VFhhQlJBfV5AQmBIYVp/TGpJfl96cVxMZVVBJAtUQF1hSn5Xd0ZiW3tWcndcRGFf;MTcxMzMyOEAzMjMxMmUzMTJlMzMzNWZDZGtoWGZLNHNRRldzdmtjVERLUU1tejJ5ZFdEUG84eG5pL3c0T1ZCaWs9;MTcxMzMyOUAzMjMxMmUzMTJlMzMzNUVUWGxzM0gyY3psRHFENHVTV0NEb1VKRFlCVy96aHRYbkpzaDNGdkMwbWc9;NRAiBiAaIQQuGjN/V0d+XU9Hc1RDX3xKf0x/TGpQb19xflBPallYVBYiSV9jS31TckRgWH1aeHZWT2lcUg==;MTcxMzMzMUAzMjMxMmUzMTJlMzMzNUt2NitRd3kwdEpXNnFFRm9NM25tY1lMT0UvUml4UzlRSXhEN2Z2eTN6cDA9;MTcxMzMzMkAzMjMxMmUzMTJlMzMzNWpnNjFJNjNjWWdzRnRNdmRJM3VXUlpKVkhKd2ZCN091ZFNzdkdBWWNLM3M9;Mgo+DSMBMAY9C3t2VFhhQlJBfV5AQmBIYVp/TGpJfl96cVxMZVVBJAtUQF1hSn5Xd0ZiW3tWcnBVQGlf;MTcxMzMzNEAzMjMxMmUzMTJlMzMzNUhySFIzbldPdmlIKzMvTDJGY3NIMEdHaWpMbTUxbmdyRWgvMG9DK0dIY3M9;MTcxMzMzNUAzMjMxMmUzMTJlMzMzNWJYLytNOW5QWlR3VTZGd1dXdEUrM0JiTUxMZ1RhK3FaUG5va3J3STRBUk09;MTcxMzMzNkAzMjMxMmUzMTJlMzMzNUt2NitRd3kwdEpXNnFFRm9NM25tY1lMT0UvUml4UzlRSXhEN2Z2eTN6cDA9');
+
+ReactDOM.render(
+    <ContextProvider>
+        <App />
+    </ContextProvider>, document.getElementById('root'));
